@@ -14,11 +14,18 @@ app.submitToServer = function() {
 	var numOfUsers = document.getElementById('numOfUsers').value;
 	numOfUsers = (numOfUsers == "") ? 1 : numOfUsers;
 
+
+
+
 	if(app.position!=undefined && app.position!=null){
 		if (((new Date().getTime() / 1000) - app.timeLastSubmit) > 59
 				|| app.forcedSubmit) {
 			app.timeLastSubmit = new Date().getTime() / 1000;
 			app.checkConnection();
+
+			//
+			alert("Latitude= "+app.position.coords.latitude+"Longitude="+app.position.coords.longitude);
+			//
 
 			$.ajax(app.SERVER_URL, {
 				contentType : "application/json",
