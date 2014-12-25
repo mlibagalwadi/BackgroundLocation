@@ -126,6 +126,7 @@ $(function() {
 
 	$("#submit-passcode").click(function() {
 		app.forcedSubmit = true; // forces pop-up
+	
 		app.submitToServer();
 	});
 

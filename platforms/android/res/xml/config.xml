@@ -66,4 +66,8 @@
     <gap:splash gap:platform="ios" height="1496" src="res/screen/ios/Default-Portrait~ipad.png" width="2048" />
     <gap:splash gap:platform="winphone" src="res/screen/windows-phone/screen-portrait.jpg" />
     <access origin="*" />
+    <feature name="SplashScreen">
+        <param name="android-package" value="org.apache.cordova.splashscreen.SplashScreen" />
+        <param name="onload" value="true" />
+    </feature>
 </widget>

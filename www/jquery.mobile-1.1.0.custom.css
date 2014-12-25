@@ -1,0 +1,89 @@
+/*!
+* jQuery Mobile Framework
+* Copyright (c) jQuery Project
+* Dual licensed under the MIT (MIT-LICENSE.txt) and GPL (GPL-LICENSE.txt) licenses.
+* http://jquery.org/license
+*/
+
+/* 
+ * Custom generated themes for jQuery Mobile
+ */
+/* f
+-----------------------------------------------------------------------------------------------------------*/
+
+.ui-bar-f {
+	border: 1px solid 		#726868;
+	background: 			#524B4B;
+	color: 					#DEE1E4;
+}
+.ui-bar-f, 
+.ui-bar-f input, 
+.ui-bar-f select, 
+.ui-bar-f textarea, 
+.ui-bar-f button {
+	font-family: Helvetica, Arial, sans-serif;
+}
+.ui-bar-f .ui-link-inherit {
+	color: 					#DEE1E4;
+}
+.ui-bar-f .ui-link {
+	color: 					#DEE1E4;
+	font-weight: bold;
+}
+.ui-body-f,
+.ui-overlay-f {
+	background: 			#6AB9F1;
+	color: 					#524343;
+	background-image: -webkit-gradient(linear, left top, left bottom, from(#6AB9F1), to(#6AB9F1)); /* Saf4+, Chrome */
+	background-image: -webkit-linear-gradient(top, #6AB9F1, #6AB9F1); /* Chrome 10+, Saf5.1+ */
+	background-image:    -moz-linear-gradient(top, #6AB9F1, #6AB9F1); /* FF3.6 */
+	background-image:     -ms-linear-gradient(top, #6AB9F1, #6AB9F1); /* IE10 */
+	background-image:      -o-linear-gradient(top, #6AB9F1, #6AB9F1); /* Opera 11.10+ */
+	background-image:         linear-gradient(top, #6AB9F1, #6AB9F1);
+}
+.ui-overlay-f {
+	background-image: none;
+	border-width: 0;
+}
+.ui-body-f,
+.ui-body-f input,
+.ui-body-f select,
+.ui-body-f textarea,
+.ui-body-f button {
+	font-family: Helvetica, Arial, sans-serif;
+}
+.ui-body-f .ui-link-inherit {
+	color: 					#524343;
+}
+.ui-body-f .ui-link {
+	color: 					#2489CE;
+	font-weight: bold;
+}
+.ui-btn-up-f {
+	background: 			#5DA6D7;
+	color: 					#433A3A;
+}
+.ui-btn-up-f a.ui-link-inherit {
+	color: 					#433A3A;
+}
+.ui-btn-hover-f {
+	background: 			#4182BC;
+	color: 					#433A3A;
+}
+.ui-btn-hover-f a.ui-link-inherit {
+	color: 					#433A3A;
+}
+.ui-btn-down-f {
+	border: 1px solid 		#9C9C9C;
+	background: 			#4B8FCB;
+	color: 					#433A3A;
+}
+.ui-btn-down-f a.ui-link-inherit {
+	color: 					#433A3A;
+}
+.ui-btn-up-f,
+.ui-btn-hover-f,
+.ui-btn-down-f {
+	font-family: Helvetica, Arial, sans-serif;
+	text-decoration: none;
+}

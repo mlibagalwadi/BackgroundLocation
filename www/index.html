@@ -17,10 +17,48 @@
         <meta name="format-detection" content="telephone=no" />
         <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, target-densitydpi=device-dpi" />        
 		<link rel="stylesheet"  href="css/themes/default/jquery.mobile-1.3.2.min.css">
-		<link rel="stylesheet" type="text/css" href="css/index.css" />
+		<!--		<link rel="stylesheet" type="text/css" href="css/index.css" /> -->
+
+
+		<link rel="stylesheet" href="http://code.jquery.com/mobile/1.1.0/jquery.mobile-1.1.0.min.css">
+		<script src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+		<script src="http://code.jquery.com/mobile/1.1.0/jquery.mobile-1.1.0.min.js"></script>
+		<link rel="stylesheet" href="jquery.mobile-1.1.0.custom.css?" />
+
+
+
+
+
     </head>
     <body>		
-	<div id="app">
+
+	<!-- Mobjectify -->
+
+<div id="app">
+
+<div id="Demo" data-url="Demo" data-role="page" data-theme="f">
+<div data-role="header" data-theme="f">
+<h1><img src="img/buble-02.png"></h1>
+</div>
+
+<div data-role="content">
+
+<ul data-role="listview" data-inset="true">
+<li><a href="#FriendList"><h3>Friends</h3><p>View friend list</p></a></li>
+<li><a href="#ProfilePage"><h3>Profile</h3><p>View Profile </p></a></li>
+<li><a href="#SettingsPage"><h3>Settings</h3><p>Edit Settings</p></a></li>
+</ul>
+
+</div></div>
+
+<div id="Page-3" data-url="Page-3" data-role="page" data-theme="f">
+<div data-role="content">
+
+</div></div>
+</div>
+	<!-- /Mobjectify __>
+
+<!-- 	<div id="app">
 		<div  id="statusPage" class="content_div">			
 			<div data-role="content" >	
 				<img src="img/logo.jpg" id="logo" alt="Nuit Blanche logo"/>
@@ -36,7 +74,7 @@
 				<div id="serverResponse">
 				</div>
 			</div>
-		</div><!-- /page  -->
+		</div><!-- /page  
 
 
 		<div  id="settingsPage" class="content_div">
@@ -60,14 +98,10 @@
                     </select>
 				</div>		
 				 <a href="#" id="submit-passcode" data-role="button" data-inline="true">Submit</a>
-				 <script type="text/javascript">
-				alert("Latitude= "+app.position.coords.latitude+"Longitude="+app.position.coords.longitude);
-
-				 </script>
 				
 				
-			</div><!-- /content -->
-		</div><!-- /page  -->
+			</div><!-- /content 
+		</div><!-- /page  
 
 		<div id="privacyPage" class="content_div">
 			<div data-role="content" >
@@ -88,8 +122,8 @@
 						<img src="img/artengine.png" alt="artengine" />
 					</div>
 					
-				</div><!-- /content -->
-		</div><!-- /page  -->
+				</div><!-- /content 
+		</div><!-- /page  
         <div id="footer" data-role="footer" data-id="foo1" data-position="fixed" data-tap-toggle="false">
             <div id="navbar" data-role="navbar">
                 <ul>
@@ -97,10 +131,10 @@
                     <li><a id="settingsButton" href="#" data-href="settingsPage" data-icon="nb-settings">Settings</a></li>
                     <li><a id="privacyButton" href="#" data-href="privacyPage" data-icon="nb-privacy">Information</a></li>
                 </ul>
-            </div><!-- /navbar -->
-        </div><!-- /footer -->    
+            </div><!-- /navbar 
+        </div><!-- /footer    
     </div>
-	
+ -->	
         <script type="text/javascript" src="js/libs/fastclick.min.js"></script>        
         <script type="text/javascript" src="js/libs/jquery-2.0.3.min.js"></script>
 		<script type="text/javascript" src="js/libs/jquery.mobile-1.3.2.min.js"></script>
@@ -114,6 +148,9 @@
 		
             app.initialize();
 			
+			//
+			//alert("Latitude= "+app.position.coords.latitude+"Longitude="+app.position.coords.longitude);
+			//	
         </script>
     </body>
 </html>
